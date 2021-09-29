@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class carousel extends Component
+class Carousel extends Component
 {
     /**
      * Create a new component instance.

@@ -15,7 +15,7 @@ class OurWorks extends Component
     public function __construct()
     {
         $this->arrayproject = [
-            new OW(asset('assets/images/works/almk.png'),"AGMK ",asset('assets/images/works/almk-icon.png'),__('messages.agmk')),
+            new OW(asset('assets/images/works/ALMK.png'),"AGMK ",asset('assets/images/works/ALMK-icon.png'),__('messages.agmk')),
             new OW(asset('assets/images/works/bbb.png'),"Bla Bla Bar Tashkent",asset('assets/images/works/bbb-icon.png'),__('messages.bbb')),
             new OW(asset('assets/images/works/Fahrenheit.png'),"Fahrenheit",asset('assets/images/works/ff-icon.png'),__('messages.fh')),
             new OW(asset('assets/images/works/seven.png'),"Seven Fridays",asset('assets/images/works/seven-icon.png'),__('messages.seven')),

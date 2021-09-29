@@ -16,7 +16,7 @@ class Carousel extends Component
     public function __construct()
     {
         $this->carousel = [
-            new CarouselArr(asset('assets/images/projections/almk.png'),"ДК АГМК –звук RCF, свет Arena, Led дисплеи Arena. "),
+            new CarouselArr(asset('assets/images/projections/ALMK.png'),"ДК АГМК –звук RCF, свет Arena, Led дисплеи Arena. "),
             new CarouselArr(asset('assets/images/projections/bbb.png'),"Bla Bla Bar Tashkent – звук JBL, свет Kingstar, Led Display  "),
             new CarouselArr(asset('assets/images/projections/Fahrenheit.png'),"Ресторан Fahrenheit – звук RCF, свет Arena, Led Display "),
             new CarouselArr(asset('assets/images/projections/seven.png'),"Бар Семь Пятниц - звук JBL, свет Arena, Led Display"),

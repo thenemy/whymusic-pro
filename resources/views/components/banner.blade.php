@@ -4,7 +4,7 @@
             <div class="col-md-6  order-md-1">
                 <h2 class="heading mb-3 font-weight-bold">WHY MUSIC PRO</h2>
                 <div class="sub-heading"><p class="mb-5">{{__('messages.banner')}}</p>
-                    <p><a href="tel:123-456-7890" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">{{__('messages.consulting')}}</a></p>
+                    <p><a href="tel:909751090" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">{{__('messages.consulting')}}</a></p>
                 </div>
             </div>
         </div>

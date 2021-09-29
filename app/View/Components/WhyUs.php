@@ -13,10 +13,17 @@ class WhyUs extends Component
      */
     public $componentWhyUs_1;
     public $componentWhyUs_2;
+    public $componentWhyUs_3;
     public function __construct()
     {
         $this->componentWhyUs_1 = new WhyUsImages(asset('assets/images/whyUs/whyUs_1.jpg'));
         $this->componentWhyUs_2 = new WhyUsImages(asset('assets/images/whyUs/whyUs_2.jpg'));
+        $this->componentWhyUs_3 =[
+            new WhyUsDesc(__('messages.installation_of_audio'),__('messages.description_installation_of_audio')),
+            new WhyUsDesc(__('messages.installation_of_light_system'),__('messages.description_installation_of_light_system')),
+            new WhyUsDesc(__('messages.installation_of_multimedia'),__('messages.description_installation_of_multimedia')),
+            new WhyUsDesc(__('messages.installation_of_karaoke'),__('messages.description_installation_of_karaoke')),
+            ];
     }
 
     /**
@@ -39,4 +46,13 @@ class WhyUsImages{
 
         $this->imageWhyUs = $imageWhyUs;
     }
+}
+class WhyUsDesc{
+    public $title;
+    public $description;
+
+    public function __construct($title,$description){
+        $this->title = $title;
+        $this->description = $description;
+        }
 }

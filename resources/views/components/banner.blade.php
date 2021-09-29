@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-md-6  order-md-1">
-                <h2 class="heading mb-3 font-weight-bold"">WHY MUSIC PRO</h2>
-                <div class="sub-heading"><p class="mb-5">ЗВУК, СВЕТ, МУЛЬТИМЕДИА</p>
-                    <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Консультация</a></p>
+                <h2 class="heading mb-3 font-weight-bold">WHY MUSIC PRO</h2>
+                <div class="sub-heading"><p class="mb-5">{{__('messages.banner')}}</p>
+                    <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">{{__('messages.consulting')}}</a></p>
                 </div>
             </div>
         </div>

@@ -15,12 +15,12 @@ class OurWorks extends Component
     public function __construct()
     {
         $this->arrayproject = [
-            new OW(asset('assets/images/works/almk.png'),"ДК АГМК ",asset('assets/images/works/almk-icon.png'),"звук RCF, свет Arena, Led дисплеи Arena"),
-            new OW(asset('assets/images/works/bbb.png'),"Bla Bla Bar Tashkent",asset('assets/images/works/bbb-icon.png'),"звук JBL, свет Kingstar, Led Displays"),
-            new OW(asset('assets/images/works/Fahrenheit.png'),"Ресторан Fahrenheit",asset('assets/images/works/ff-icon.png'),"звук RCF, свет Arena, Led Display"),
-            new OW(asset('assets/images/works/seven.png'),"Бар Семь Пятниц ",asset('assets/images/works/seven-icon.png'),"звук JBL, свет Arena, Led Display"),
-            new OW(asset('assets/images/works/mosque.png'),"Мечать Ракат",asset('assets/images/works/mosque-icon.png'),"звук RCF, свет King Star"),
-            new OW(asset('assets/images/works/more.png'),"Аква комплекс More ",asset('assets/images/works/more-icon.png'),"звук RCF, свет King Star, Led Display")
+            new OW(asset('assets/images/works/almk.png'),"AGMK ",asset('assets/images/works/almk-icon.png'),__('messages.agmk')),
+            new OW(asset('assets/images/works/bbb.png'),"Bla Bla Bar Tashkent",asset('assets/images/works/bbb-icon.png'),__('messages.bbb')),
+            new OW(asset('assets/images/works/Fahrenheit.png'),"Fahrenheit",asset('assets/images/works/ff-icon.png'),__('messages.fh')),
+            new OW(asset('assets/images/works/seven.png'),"Seven Fridays",asset('assets/images/works/seven-icon.png'),__('messages.seven')),
+            new OW(asset('assets/images/works/mosque.png'),"Rakat",asset('assets/images/works/mosque-icon.png'),__('messages.mosque')),
+            new OW(asset('assets/images/works/more.png'),"More Aqua Complex",asset('assets/images/works/more-icon.png'),__('messages.more'))
         ];
     }
 

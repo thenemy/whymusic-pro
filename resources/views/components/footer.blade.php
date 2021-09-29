@@ -13,8 +13,7 @@
                         <i class="fas fa-gem me-3 "></i>WHY MUSIC PRO
                     </h6>
                     <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
+                        {{__('messages.banner')}}
                     </p>
 
                 </div>
@@ -26,7 +25,7 @@
                     <h6 class="text-uppercase fw-bold mb-4">
                         Contact
                     </h6>
-                    <p><i class=" me-3"></i> Узбекистан, Ташкент, Мирзо-Улугбекский район, проспект Мустакиллик 59а. </p>
+                    <p><i class=" me-3"></i>{{__('messages.location')}}</p>
                     <p>
                         <i class=" me-3"></i>
                         info@whymusicpro.uz
@@ -36,7 +35,7 @@
                 </div>
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Социальные сети </h6>
+                    <h6 class="text-uppercase fw-bold mb-4">{{__('messages.socials')}} </h6>
                     <div class="flex flex-row">
                         @foreach($footer_image as $clickables)
                             <a href="{{$clickables->link}}"><img src="{{$clickables->image}}" alt=""></a>

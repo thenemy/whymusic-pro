@@ -16,13 +16,13 @@ class OurPartners extends Component
     public function __construct()
     {
         $this->component_our_partners = [
-            new OP("“Самый продаваемый в мире бренд в направлениях professional/commercial audio.”","RFC",asset("assets/images/brands/rfc.png"),"Италия"),
-            new OP("“Мировой лидер по производству микрофонов, наушников и конференц систем.”","SHURE",asset("assets/images/brands/shure.png"),"США  "),
-            new OP("“Мировой лидер по производству микрофонов, наушников и конференц систем.”","BEYERDYNAMIC",asset("assets/images/brands/beyerdynamic.png"),"Германия"),
-            new OP("Лидер по производству микшерных пультов и системных решений.”","ALLEN&HEATH",asset("assets/images/brands/allenAhealth.png"),"Англия"),
-            new OP("“Профессиональные системы Commercial Audio, Smart Home, Conference System, Voice Evacuation System, Alarm, Audiovisual System, Digital System и многих других решений.”","DSPPA",asset("assets/images/brands/dsppa.jpg"),"Италия"),
-            new OP("“Световое оборудование профессионального класса.”","CHAUVET",asset("assets/images/brands/chauvet.jpg"),"Франция"),
-            new OP("“Мировой лидер по производству микрофонов, наушников и конференц систем.”","Sennheiser",asset("assets/images/brands/sennheiser.svg"),"Германия")
+            new OP(__('messages.rfc'),"RFC",asset("assets/images/brands/rfc.png"),__('messages.rfc_country')),
+            new OP(__('messages.shure'),"SHURE",asset("assets/images/brands/shure.png"),__('messages.shure_country')),
+            new OP(__('messages.beyerdynamic'),"BEYERDYNAMIC",asset("assets/images/brands/beyerdynamic.png"),__('messages.beyerdynamic_country')),
+            new OP(__('messages.allen'),"ALLEN&HEATH",asset("assets/images/brands/allenAhealth.png"),__('messages.allen_country')),
+            new OP(__('messages.dsppa'),"DSPPA",asset("assets/images/brands/dsppa.jpg"),__('messages.dsppa_country')),
+            new OP(__('messages.chauvet'),"CHAUVET",asset("assets/images/brands/chauvet.jpg"),__('messages.chauvet_country')),
+            new OP(__('messages.sennenheiser'),"Sennheiser",asset("assets/images/brands/sennheiser.svg"),__('messages.sennenheiser_country'))
         ];
     }
 

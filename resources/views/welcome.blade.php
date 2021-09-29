@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Law &mdash; Free Multi-Purpose One Page Bootstrap 4 Theme by ProBootstrap.com</title>
-    <meta name="description" content="Free Bootstrap 4 Theme by ProBootstrap.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <title>WHY MUSIC Professional</title>
+    <meta name="description" content=""">
+    <meta name="keywords" content="">
 
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
 

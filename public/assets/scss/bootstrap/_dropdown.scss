@@ -1,6 +1,7 @@
 // The dropdown wrapper (`<div>`)
 .dropup,
 .dropdown {
+
   position: relative;
 }
 
@@ -51,7 +52,7 @@
   padding: $dropdown-padding-y 0;
   margin: $dropdown-spacer 0 0; // override default ul
   font-size: $font-size-base; // Redeclare because nesting can cause inheritance issues
-  color: $body-color;
+
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
   list-style: none;
   background-color: $dropdown-bg;
@@ -75,7 +76,7 @@
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
   clear: both;
   font-weight: $font-weight-normal;
-  color: $dropdown-link-color;
+
   text-align: inherit; // For `<button>`s
   white-space: nowrap; // prevent links from randomly breaking onto new lines
   background: none; // For `<button>`s

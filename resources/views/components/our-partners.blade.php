@@ -1,12 +1,12 @@
 
 <section class="pb_section pb_testimonial_v1" data-section="testimonials" id="section-our-brands">
     <div class="container">
-        <div class="row justify-content-md-center text-center ">
-            <div class="">
-                <h2 class="mt-0 heading-border-top font-weight-normal pb-5 text-center">{{__('messages.our_brands')}}</h2>
+        <div class="row justify-content-md-center text-center mb-5">
+            <div class="col-lg-7">
+                <h2 class="mt-0 heading-border-top font-weight-normal">{{__('messages.our_brands')}}</h2>
             </div>
         </div>
-        <div class="row justify-content-md-center ">
+        <div class="row justify-content-center ">
             <div class="col-md-10 col-sm-12 mb-5">
                 <div class="single-item-no-arrow pb_slide_v1 ">
                     @foreach($component_our_partners as $objects_partners)

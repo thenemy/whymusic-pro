@@ -13,7 +13,7 @@ return [
     Yevropa va Rossiyada eng yaxshi muhandislar bilan musiqa Professional mutaxassislar va qo'shma faoliyati bizga har q
     anday murakkablikdagi loyihalarni amalga oshirish imkonini beradi nega malakasi -
     kichik butiklar dan murakkab yechimlari uchun - konsert zallari, ko'ngilochar majmualari va ko'p hudud tizimlari.",
-    "banner" => "OVOZ, CHIRO, Multimedia",
+    "banner" => "OVOZ, YORIQLIK, MULTIMEDIA",
     "consulting" => "Maslahat",
     "why_us" => "Bizning kompaniya loyihalar va ularning tatbiqiy turli bilan shug'ullanadi, shuningdek, bizning xizmatlar
     har qanday shartlar asosida uskunalar yetkazib o'z ichiga oladi, mijoz uchun qulay,

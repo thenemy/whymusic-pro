@@ -9,27 +9,24 @@
                 @foreach($navigation as $navitem)
                 <li class="nav-item"><a class="nav-link" href="#section-{{$navitem->section}}">{{$navitem->nav}}</a></li>
                 @endforeach
+                    <div>
+                        <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 ">
+                            <li class="navbar-nav ml-auto dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                                    {{ Config::get('languages')[App::getLocale()] }}
+                                </a>
+                                <div class="dropdown-menu " aria-labelledby="">
+                                    @foreach (Config::get('languages') as $lang => $language)
+                                        @if ($lang != App::getLocale())
+                                            <a class="dropdown-item " href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
+                                        @endif
+                                    @endforeach
+                                </div>
+                            </li>
+                        </div>
+                    </div>
             </ul>
         </div>
-
-        <div>
-            <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 ">
-                <li class="navbar-nav ml-auto dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                        {{ Config::get('languages')[App::getLocale()] }}
-                    </a>
-                    <div class="dropdown-menu " aria-labelledby="">
-                        @foreach (Config::get('languages') as $lang => $language)
-                            @if ($lang != App::getLocale())
-                                <a class="dropdown-item " href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
-                            @endif
-                        @endforeach
-                    </div>
-                </li>
-            </div>
-        </div>
-
-
     </div>
 </nav>
 <!-- END nav -->

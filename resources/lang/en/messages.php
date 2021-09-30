@@ -10,7 +10,7 @@ return [
         "our_brands" => "Our Brands",
 
     "about_us_discribtion" => "Why Music Professional is a professional team in the design, import and installation of sound, lighting, multimedia equipment and mechanical systems.\n The qualifications of Why Music Professional specialists and joint activities with the best engineers in Europe and Russia allow us to implement projects of any complexity - from small boutiques to complex solutions - concert halls, entertainment complexes and multi-zone systems.",
-        "banner" => "SOUND, Lights, Multimedia",
+        "banner" => "SOUND, LIGHTS, MULTIMEDIA ",
         "consulting" => "Consultation",
         "why_us" => "Our company is engaged in various kinds of projects and their implementations, also our services include the delivery of equipment on any terms, convenient for the customer, installation and commissioning, warranty and service, work on the trade in system.",
         "installation_of_audio" => "Installing audio equipment",

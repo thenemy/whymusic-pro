@@ -5,17 +5,19 @@ return [
     "home" => "Asosiy",
     "about_us" => "Biz Haqimizda",
     'why' => "Nega Biz",
-    "our_works" => "Bizning Ishlar",
+    "our_works" => "Bizning proektlar",
     "contacts" => "Aloqa",
-    "our_brands" => "Bizning Brendlar",
-    "about_us_discribtion" => "Why Music Professional ovoz, yoritish, multimedia uskunalari va
+    "our_brands" => "Brendlar",
+    "partners" =>"Hamkorlar",
+    "about_us_discribtion" => "\t Why Music Professional ovoz, yoritish, multimedia uskunalari va
     mexanik tizimlarini loyihalash, import qilish va o'rnatish bo'yicha professional jamoa.\n
     Yevropa va Rossiyada eng yaxshi muhandislar bilan musiqa Professional mutaxassislar va qo'shma faoliyati bizga har q
     anday murakkablikdagi loyihalarni amalga oshirish imkonini beradi nega malakasi -
     kichik butiklar dan murakkab yechimlari uchun - konsert zallari, ko'ngilochar majmualari va ko'p hudud tizimlari.",
     "banner" => "OVOZ, YORIQLIK, MULTIMEDIA",
-    "consulting" => "Maslahat",
-    "why_us" => "Bizning kompaniya loyihalar va ularning tatbiqiy turli bilan shug'ullanadi, shuningdek, bizning xizmatlar
+    "banner1" => "MUHANDISLIK ECHIMLARI, LOYIHALAR, O'RNATISH",
+    "consulting" => "Biz bilan bog'laning",
+    "why_us" => "\t Bizning kompaniya loyihalar va ularning tatbiqiy turli bilan shug'ullanadi, shuningdek, bizning xizmatlar
     har qanday shartlar asosida uskunalar yetkazib o'z ichiga oladi, mijoz uchun qulay,
      o'rnatish va ishga tushirish, kafolat va xizmat, tizimida savdo ustida ishlash.",
     "installation_of_audio" => "O'rnatish audio uskunalart",
@@ -31,6 +33,8 @@ return [
     "description_installation_of_karaoke" => "Biz har qanday murakkablikdagi karaoke tizimlarini - katta, ko'p zonali zallar va uy tizimlarini loyihalashga va ishga tushirishga tayyormiz.",
     "rfc" => "“Professional/Tijorat audio sohalarida dunyodagi eng ko'p sotilgan tovar.",
     "rfc_country" =>"Italiya",
+    "hk" => "Har qanday yo'nalish uchun premium ovozli uskunalar.",
+    "hk_country" => "Germaniya",
     "shure"=>"“Mikrofonlar, naushniklar va konferentsiya tizimlari ishlab chiqarish bo'yicha jahonda yetakchi.”",
     "shure_country" => "AQSH",
     "beyerdynamic"=>"“Mikrofonlar, naushniklar va konferentsiya tizimlari ishlab chiqarish bo'yicha jahonda yetakchi.”",

@@ -20,8 +20,10 @@ class Navbar extends Component
             new NavBarItem(__('messages.home'),'home'),
             new NavBarItem(__('messages.about_us'),'about'),
             new NavBarItem(__('messages.why'),'why'),
+            new NavBarItem(__('messages.our_works'),'our-works'),
             new NavBarItem(__('messages.our_brands'),'our-brands'),
-            new NavBarItem(__('messages.our_works'),'our-works')
+            new NavBarItem(__('messages.partners'),'partners')
+
         ];
     }
 

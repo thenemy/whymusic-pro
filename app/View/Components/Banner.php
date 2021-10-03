@@ -14,7 +14,7 @@ class Banner extends Component
     public $image_banner;
     public function __construct()
     {
-        $this->image_banner =  new BannerImg(asset('assets/images/banner.jpg'));
+        $this->image_banner =  new BannerImg(asset('assets/images/banner.png'));
     }
 
     /**

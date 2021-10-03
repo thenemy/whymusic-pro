@@ -15,9 +15,9 @@ class Footer extends Component
     public function __construct()
     {
         $this->footer_image =[
-            new ClickableImage("https://www.instagram.com/whymusicprofessional/",asset("assets/logos/ig-logo.svg")),
-            new ClickableImage("https://www.facebook.com/whymusicprofessional/",asset("assets/logos/fb-logo.svg")),
-            new ClickableImage("https://t.me/whymusicprofessional",asset("assets/logos/tg-logo.svg"))
+            new ClickableImage("https://www.instagram.com/whymusicprofessional/",asset("assets/logos/ig-logo.png")),
+            new ClickableImage("https://www.facebook.com/whymusicprofessional/",asset("assets/logos/fb-logo.png")),
+            new ClickableImage("https://t.me/whymusicprofessional",asset("assets/logos/tg-logo.png"))
         ];
     }
 

@@ -3,14 +3,13 @@
     <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
             <div class="col-lg-7">
-                <h2 class="mt-0 heading-border-top font-weight-normal">{{__('messages.why')}}</h2>
+                <h2 class="mt-0 font-weight-normal">{{__('messages.why')}}</h2>
                 <p>{{__('messages.why_us')}}</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7">
                 <div class="images right">
-                    <img class="img2" src="{{$componentWhyUs_2->imageWhyUs}}" alt=" ">
                     <img class="img1 img-fluid" src="{{$componentWhyUs_1->imageWhyUs}}" alt="">
                 </div>
             </div>

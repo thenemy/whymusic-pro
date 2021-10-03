@@ -82,11 +82,11 @@ $(document).ready(function($) {
 		});
 
 		$('.multiple-items').slick({
-		  slidesToShow: 3,
+		  slidesToShow: 5,
 		  slidesToScroll: 1,
-		  dots: true,
+		  dots: false,
 		  infinite: true,
-
+            variableWidth: true,
 		  autoplay: true,
 	  	autoplaySpeed: 2000,
 
@@ -98,23 +98,23 @@ $(document).ready(function($) {
 		    {
 		      breakpoint: 1125,
 		      settings: {
-		        slidesToShow: 2,
+		        slidesToShow: 4,
 		        slidesToScroll: 1,
 		        infinite: true,
-		        dots: true
+		        dots: false
 		      }
 		    },
 		    {
 		      breakpoint: 900,
 		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 2
+		        slidesToShow: 3,
+		        slidesToScroll: 1
 		      }
 		    },
 		    {
 		      breakpoint: 580,
 		      settings: {
-		        slidesToShow: 1,
+		        slidesToShow: 2,
 		        slidesToScroll: 1
 		      }
 		    }

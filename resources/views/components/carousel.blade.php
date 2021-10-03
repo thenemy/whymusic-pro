@@ -1,25 +1,20 @@
-<section class="pb_section">
-    <div class="multiple-items pb_slide_v1">
-        @foreach ($carousel as $carouselimage)
-            <div class="main_hover hvrbox">
-                <a href="#" class="link-block">
-                    <img class="image-size carousel-image hvrbox-layer_bottom" src="{{$carouselimage->image}}" alt="" class="img-fluid">
-                    <div class="slide-text carousel hvrbox-layer_top hvrbox-layer_slideup">
-                        <h2 class="details remove"><span class="title">{{$carouselimage->description}}</span></h2>
-                    </div>
-                </a>
-            </div>
-        @endforeach
+<section class="sponsors mb-5" id="section-partners">
+    <div class="box flex-di slick-track " style="max-width: 40rem">
+        <h2 class="text-center mb-3">{{__('messages.partners')}}</h2>
+        <div class="sponsors-images mt-2 multiple-items align-items-center">
+            @foreach ($carousel as $carouselimage)
+                <div class="image-sponsors"style="width: 100px !important;" >
+                    <img class="flex carousel-image align-items-center"  src="{{$carouselimage->image}}"
+                         alt="">
+                </div>
+            @endforeach
+        </div>
     </div>
-
 </section>
 <script>
-
-    $(".main_hover").hover(function () {
-        $(this).find(".details").removeClass("remove").addClass("shadows_carousel_text");
-
-    }, function () {
-        $(this).find(".details").addClass("remove").removeClass("shadows_carousel_text");
-    })
+    // $('.multiple-items').remove(".slick-dots");
+    $('.multiple-items').slick({
+        slidesToShow: 8,
+        slidesToScroll: 22
+    });
 </script>
-<!-- END section -->

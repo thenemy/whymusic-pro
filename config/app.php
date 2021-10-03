@@ -94,9 +94,9 @@ return [
     */
 
     'available_locales' => [
-        'English' => 'en',
-        'Russian' => 'ru',
-        'Uzbek' => 'uz',
+        'en' => 'en',
+        'ru' => 'ru',
+        'uz' => 'uz',
     ],
 
     /*

@@ -16,11 +16,36 @@ class Carousel extends Component
     public function __construct()
     {
         $this->carousel = [
-            new CarouselArr(asset('assets/images/projections/ALMK.png'),"ДК АГМК –звук RCF, свет Arena, Led дисплеи Arena. "),
-            new CarouselArr(asset('assets/images/projections/bbb.png'),"Bla Bla Bar Tashkent – звук JBL, свет Kingstar, Led Display  "),
-            new CarouselArr(asset('assets/images/projections/Fahrenheit.png'),"Ресторан Fahrenheit – звук RCF, свет Arena, Led Display "),
-            new CarouselArr(asset('assets/images/projections/seven.png'),"Бар Семь Пятниц - звук JBL, свет Arena, Led Display"),
-            new CarouselArr(asset('assets/images/projections/more.png'),"Аква комплекс More – звук RCF, свет King Star, Led Display")
+            new CarouselArr(asset('assets/images/sponsors/ALMK.png')),
+            new CarouselArr(asset('assets/images/sponsors/bbb.png')),
+            new CarouselArr(asset('assets/images/sponsors/Fahrenheit.png')),
+            new CarouselArr(asset('assets/images/sponsors/seven.png')),
+            new CarouselArr(asset('assets/images/sponsors/more.png')),
+            new CarouselArr(asset('assets/images/sponsors/onemore.png')),
+            new CarouselArr(asset('assets/images/sponsors/alisher.png')),
+            new CarouselArr(asset('assets/images/sponsors/amadeus.png')),
+            new CarouselArr(asset('assets/images/sponsors/british.png')),
+            new CarouselArr(asset('assets/images/sponsors/cmi.png')),
+            new CarouselArr(asset('assets/images/sponsors/enter.png')),
+            new CarouselArr(asset('assets/images/sponsors/fahrenheit.png')),
+            new CarouselArr(asset('assets/images/sponsors/gfu.png')),
+            new CarouselArr(asset('assets/images/sponsors/goethe.png')),
+            new CarouselArr(asset('assets/images/sponsors/humo.png')),
+            new CarouselArr(asset('assets/images/sponsors/ilkhom.png')),
+            new CarouselArr(asset('assets/images/sponsors/iosis.png')),
+            new CarouselArr(asset('assets/images/sponsors/matbuot.png')),
+            new CarouselArr(asset('assets/images/sponsors/obi.png')),
+            new CarouselArr(asset('assets/images/sponsors/pasado.png')),
+            new CarouselArr(asset('assets/images/sponsors/penson.png')),
+            new CarouselArr(asset('assets/images/sponsors/plov.png')),
+            new CarouselArr(asset('assets/images/sponsors/polymedia.png')),
+            new CarouselArr(asset('assets/images/sponsors/prokuratura.png')),
+            new CarouselArr(asset('assets/images/sponsors/radio.png')),
+            new CarouselArr(asset('assets/images/sponsors/shelby.png')),
+            new CarouselArr(asset('assets/images/sponsors/teleset.png')),
+            new CarouselArr(asset('assets/images/sponsors/velvet.png')),
+            new CarouselArr(asset('assets/images/sponsors/yastreb.png')),
+
         ];
     }
 
@@ -36,11 +61,11 @@ class Carousel extends Component
 }
 class  CarouselArr{
     public $image;
-    public $description;
 
-    public function __construct ($image, $description){
+
+    public function __construct ($image){
         $this->image = $image;
-        $this->description = $description;
+
     }
 
 }

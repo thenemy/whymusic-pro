@@ -2,7 +2,7 @@
 
     <ul class="container">
 
-        <a class="navbar-brand image-logo" href="/"><img style="width: 19rem" src="{{$image_logo->image}}" id="image-logo" alt=""></a>
+        <a class="navbar-brand image-logo " href="/"><img class="navbar-logo" style="" src="{{$image_logo->image}}" id="image-logo" alt=""></a>
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
@@ -48,7 +48,7 @@
 </nav>
 <script>
     window.onscroll = function() {
-        growShrinkLogo()
+        ShrinkLogo()
     };
 
     function ShrinkLogo() {

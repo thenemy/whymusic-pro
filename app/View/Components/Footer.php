@@ -17,7 +17,7 @@ class Footer extends Component
         $this->footer_image =[
             new ClickableImage("https://www.instagram.com/whymusicprofessional/",asset("assets/logos/ig-logo.png")),
             new ClickableImage("https://www.facebook.com/whymusicprofessional/",asset("assets/logos/fb-logo.png")),
-            new ClickableImage("https://t.me/whymusicprofessional",asset("assets/logos/tg-logo.png"))
+            new ClickableImage("https://t.me/whymusicprofessional",asset("assets/logos/tg-logo.svg"))
         ];
     }
 

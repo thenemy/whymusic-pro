@@ -1,5 +1,5 @@
 <section class="sponsors mb-5" id="section-partners">
-    <div class="box flex-di slick-track " style="max-width: 40rem">
+    <div class="box flex-di slick-track slide-size" style="">
         <h2 class="text-center mb-3">{{__('messages.partners')}}</h2>
         <div class="sponsors-images mt-2 multiple-items align-items-center">
             @foreach ($carousel as $carouselimage)
@@ -12,9 +12,6 @@
     </div>
 </section>
 <script>
-    // $('.multiple-items').remove(".slick-dots");
-    $('.multiple-items').slick({
-        slidesToShow: 8,
-        slidesToScroll: 22
-    });
+
+    $('.image-sponsors').find('.slick-list').find('.slick-track').attr('style','width: 300px!important');
 </script>

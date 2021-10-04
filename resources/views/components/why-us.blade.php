@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="col-lg-5 pl-md-5 pl-sm-0">
-                <div id="exampleAccordion" class="pb_accordion" data-children=".item">
+                <div id="exampleAccordion" class="pb_accordion mt-3" data-children=".item">
                     @foreach($componentWhyUs_3 as $itemwhyus)
                     <div class="item">
                         <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion{{$loop->index}}" aria-expanded="false" aria-controls="exampleAccordion{{$loop->index}}" class="pb_font-18">{{$itemwhyus->title}}</a>

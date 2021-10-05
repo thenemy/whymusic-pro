@@ -17,7 +17,6 @@ class WhyUs extends Component
     public function __construct()
     {
         $this->componentWhyUs_1 = new WhyUsImages(asset('assets/images/whyUs/whyUs_1.jpg'));
-        $this->componentWhyUs_2 = new WhyUsImages(asset('assets/images/whyUs/whyUs_2.jpg'));
         $this->componentWhyUs_3 =[
             new WhyUsDesc(__('messages.installation_of_audio'),__('messages.description_installation_of_audio')),
             new WhyUsDesc(__('messages.installation_of_light_system'),__('messages.description_installation_of_light_system')),

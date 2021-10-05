@@ -16,8 +16,8 @@ class AboutUs extends Component
     public function __construct()
     {
 
-        $this->image_1 =  new Ab(asset('assets/images/aboutus/sound-image.png'));
-        $this->image_2 = new Ab(asset('assets/images/aboutus/lighting-image.png'));
+
+        $this->image_2 = new Ab(asset('assets/images/aboutus/about-us.jpg'));
     }
 
     /**

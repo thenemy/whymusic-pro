@@ -2,7 +2,8 @@
 
     <ul class="container">
 
-        <a class="navbar-brand image-logo " href="/"><img class="navbar-logo" style="" src="{{$image_logo->image}}" id="image-logo" alt=""></a>
+        <a class="navbar-brand image-logo " href="/"><img class="navbar-logo" style="" src="{{$image_logo->image}}"
+                                                          id="image-logo" alt=""></a>
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
@@ -13,31 +14,32 @@
         <div class="collapse navbar-collapse" id="probootstrap-navbar">
             <ul class="navbar-nav ml-auto">
                 @foreach($navigation as $navitem)
-                    <li class="nav-item"><a class="nav-link " href="#section-{{$navitem->section}}">{{$navitem->nav}}</a>
+                    <li class="nav-item"><a class="nav-link "
+                                            href="#section-{{$navitem->section}}">{{$navitem->nav}}</a>
                     </li>
 
                 @endforeach
-                <li class="nav-item">
-                    <a class="btn dropdown-toggle text-white nav-link align-content-start left" href="#"
-                       style="line-height: inherit; text-align: left !important;"
-                       aria-haspopup="false" role="button"
-                       id="dropdownMenuLink" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{ Config::get('languages')[App::getLocale()] }}
-                    </a>
-                    <div class="dropdown mw-100">
+                    <li class="nav-item">
+                        <a class="btn dropdown-toggle text-white nav-link" href="#"
+                           style="line-height: inherit; text-align: left !important;"
+                           aria-haspopup="false" role="button"
+                           id="dropdownMenuLink" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ Config::get('languages')[App::getLocale()] }}
+                        </a>
+                        <div class="dropdown">
 
-                        <ul class="dropdown-menu list-lang" aria-labelledby="dropdownMenuLink">
-                            <li class="">
-                                @foreach (Config::get('languages') as $lang => $language)
-                                    @if ($lang != App::getLocale())
-                                        <a class="dropdown-item" style="color: #6c757d !important; "
-                                           href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
-                                    @endif
-                                @endforeach
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                            <ul class="dropdown-menu scrolled scrolled-white list-lang" aria-labelledby="dropdownMenuLink">
+                                <li class="">
+                                    @foreach (Config::get('languages') as $lang => $language)
+                                        @if ($lang != App::getLocale())
+                                            <a class="dropdown-item scrolled-black" style="color: white !important; "
+                                               href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
+                                        @endif
+                                    @endforeach
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
             </ul>
 
         </div>
@@ -47,7 +49,7 @@
     </div>
 </nav>
 <script>
-    window.onscroll = function() {
+    window.onscroll = function () {
         ShrinkLogo()
     };
 
